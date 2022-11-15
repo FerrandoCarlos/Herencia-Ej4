@@ -24,7 +24,7 @@ public class Principal {
         Circulo c = new Circulo();
         Rectangulo r = new Rectangulo();
         
-        System.out.println("Ingresaremos los datos del la forma geométrica: ");
+        System.out.println("Ingresaremos los datos del las formas geométrica: ");
         
         c.setNombreFigura("Circulo");
         System.out.printf("Ingresar el diametro del %s:",c.getNombreFigura());
