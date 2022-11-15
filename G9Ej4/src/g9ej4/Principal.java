@@ -10,6 +10,8 @@
  */
 package g9ej4;
 
+import java.util.Scanner;
+
 /**
  * @author Carlos Ferrando
  */
@@ -17,6 +19,11 @@ public class Principal {
 
     public static void main(String[] args) {
         //TODO: crear objetos y pasar parametros
+        Scanner input = new Scanner(System.in).useDelimiter("\n");
+        Circulo c = new Circulo();
+        Rectangulo r = new Rectangulo();
+        
+        System.out.println("Ingresaremos los datos del la forma geométrica: ");
     }
 
 }
